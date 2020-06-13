@@ -86,4 +86,13 @@ In this homework assignment, you will need to:
 
 * Submit the link to your GitHub project to Bootcamp Spot.
 
+## Submissin Response and Analysis
+* The KNN model had a weighted precision average of 0.842 and an f1-score of 0.84
+* The SVC model had a weighted precision average of 0.871 and an f1-score of 0.87
+* The RF  model had a weighted precision average of 0.901 and an f1-score of 0.90
+* The NN  model had a weighted precision average of 0.872
+* The DNN model had a weighted precision average of 0.889
+
+* Comparing all models the Random Forest model had the most accuracy in predicting   'Candidate', 'Confirmed', or 'False Positive'. I attempted adding additional nodes and hidden layers for the Deep Neural Network Model, and suprisingly enough the accuracy went down. No asssumptions were made, so I ended up using all 40 columns in during every training.
+
 ##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
